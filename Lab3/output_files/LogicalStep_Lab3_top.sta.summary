@@ -1,0 +1,41 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'HVAC:inst6|\clk_divider:counter[23]'
+Slack : -11.610
+TNS   : -46.045
+
+Type  : Setup 'pb_n[3]'
+Slack : -7.382
+TNS   : -14.721
+
+Type  : Setup 'clkin_50'
+Slack : -2.336
+TNS   : -36.394
+
+Type  : Hold 'clkin_50'
+Slack : 0.381
+TNS   : 0.000
+
+Type  : Hold 'HVAC:inst6|\clk_divider:counter[23]'
+Slack : 0.394
+TNS   : 0.000
+
+Type  : Hold 'pb_n[3]'
+Slack : 2.057
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'clkin_50'
+Slack : -3.000
+TNS   : -38.688
+
+Type  : Minimum Pulse Width 'pb_n[3]'
+Slack : -3.000
+TNS   : -30.379
+
+Type  : Minimum Pulse Width 'HVAC:inst6|\clk_divider:counter[23]'
+Slack : -1.487
+TNS   : -5.948
+
+------------------------------------------------------------
